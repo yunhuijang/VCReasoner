@@ -18,7 +18,7 @@ Each trace includes:
 
 ```bash
 # Clone the repository
-git clone <repo-url>
+git clone https://github.com/yunhuijang/VCReasoner.git
 cd vcreasoner
 
 # Create virtual environment with uv

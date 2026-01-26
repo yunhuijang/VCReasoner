@@ -43,7 +43,7 @@ print(f"Dataset shape: {df.shape[0]:,} traces, {df.shape[1]} columns")
 
 | Column | Description |
 |--------|-------------|
-| `perturbation` | Dict containing the cellular context (cell type, mutations) and perturbation details (compound/gene, targets, mechanism) |
+| `perturbation` | Dict containing the cellular context (cell type, etc.) and perturbation details (compound, targets, etc.) |
 | `question` | The mechanistic question posed about the perturbation's effects |
 | `report_text` | Human-readable mechanistic report in markdown format |
 | `explain` | Structured explanation using action primitives |
@@ -52,7 +52,7 @@ print(f"Dataset shape: {df.shape[0]:,} traces, {df.shape[1]} columns")
 
 ## Action Primitives
 
-The structured explanations use a vocabulary of action primitives to describe molecular events:
+The structured explanations use a vocabulary of action primitives to describe mechanistic events:
 
 | Primitive | Description |
 |-----------|-------------|

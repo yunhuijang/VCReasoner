@@ -1,6 +1,6 @@
-# VCREASONER: Mechanistic Reasoning Traces Dataset
+# VC-TRACES: Mechanistic Reasoning Traces Dataset
 
-A dataset of structured mechanistic reasoning traces for virtual cell reasoning. VCREASONER provides a multi-agent framework to understand and predict how biological perturbations (drugs, gene knockouts, etc.) affect cells at a mechanistic level.
+A dataset of structured mechanistic reasoning traces for virtual cell reasoning. VC-TRACES provides a multi-agent framework to understand and predict how biological perturbations (drugs, gene knockouts, etc.) affect cells at a mechanistic level.
 
 ## Dataset Overview
 
